@@ -5,31 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+
         header {
-            background-color: #b9a5df; /* Cor de fundo do cabeçalho */
+            background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
             color: #fff; /* Cor do texto no cabeçalho */
             padding: 5px; /* Espaçamento interno do cabeçalho */
-           /* height: 30;*/
             display: flex;
             align-items: center;
-           /* justify-content: space-between;*/
         }
-        .logo {
-            max-width: 150px; /* Largura máxima da imagem */
-            height: auto; /* Mantém a proporção da imagem */
-        }
+
         .menu-wrapper {
             flex: 1;
             display: flex;
             justify-content: center;
         }
-        nav {
-            margin: 0;
-        }
+
         nav a {
             margin: 0 30px;
             text-decoration: 1;
@@ -37,13 +27,11 @@
             font-size: 22px; /* Tamanho da fonte dos links */
         }
 
-        /* Estilo do banner */
         .banner {
             position: relative;
             width: 100%;
             height: 200px; /* Altura do banner */
-            background-image: url('./Imagens/banner.png'); /* Imagem de fundo do banner */
-            background-size: cover; /* Ajusta a imagem para cobrir todo o banner */
+            background-image: url('./Imagens/banner_home.png'); /* Imagem de fundo do banner */
             background-position: center; /* Centraliza a imagem de fundo */
             background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
             color: #fff; /* Cor do texto sobreposto */
@@ -53,28 +41,19 @@
             text-align: center;
             overflow: hidden;
         }
-        .banner-content {
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 20px;
-            background-color: rgba(215, 180, 231, 0.5); /* Fundo semi-transparente para o texto */
-            border-radius: 10px;
+
+        h3 {
+            text-align: center; /* Centraliza o texto horizontalmente */
+            font-weight: 900; /* Define a fonte como "black" */
+            margin-top: -20px; /* Ajusta a posição vertical do título */
         }
-        .banner-content h1 {
-            margin: 0;
-            font-size: 36px; /* Tamanho do título */
-        }
-
-
-
+      
     </style>
 </head>
 <body>
     <header>
         <!-- Logo -->
-        <img src="./Imagens/logomarca.png" alt="Descrição da Imagem" class="logo">
+        <img src="./Imagens/logomarca.png" alt="Descrição da Imagem">
         <!-- Wrapper para centralizar o menu -->
         <div class="menu-wrapper">
             <nav>
@@ -85,19 +64,13 @@
                 <a href="#Institucional">Institucional</a>
             </nav>
         </div>
+
     </header>
-
-          <!-- Banner -->
-        <div class="banner">
-             <div class="banner-content">
-             <h1>Abra uma Janela Para sua VIDA</h1>
-        </div>
-    </div>
-
-
     
     <main>
-        <!-- Conteúdo principal do site -->
+         <!-- Banner -->
+         <div class="banner"> </div>
+         <h3 style="text-align: center;">  Juntos pela Saúde Mental: Um Espaço de Apoio e Informação </h3>  
     </main>
 </body>
 </html>
