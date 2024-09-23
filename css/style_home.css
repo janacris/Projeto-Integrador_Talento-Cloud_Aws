@@ -1,7 +1,7 @@
 header {
     background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
     padding: 5px; /* Espaçamento interno do cabeçalho */
-    display: flex;
+    display: flex; /* */
     align-items: center;
 }
 
