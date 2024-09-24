@@ -17,6 +17,7 @@ div nav a {
     margin: 0 30px;
     color: #000000; /* Cor dos links no menu */
     font-size: 22px; /* Tamanho da fonte dos links */
+    text-decoration: none;
 }
 
 .banner {
