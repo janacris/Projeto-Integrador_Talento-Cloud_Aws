@@ -1,0 +1,40 @@
+footer{
+    background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    display: flex; 
+    align-items: center;
+  
+}
+footer h6{
+    /*background-color: aqua;*/
+    padding: 10px;
+    margin-left: 5px;
+    font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+    font-weight: 800;
+    font-size: 18px;
+    color:#0A2EA1;
+}
+
+.menu{
+    align-items: center;
+    text-align: left;
+    color: #000000;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.lista-duas-colunas {
+    display: flex; /* Usar flexbox */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+}
+
+.lista-duas-colunas li {
+    width: 40%; /* Definir a largura de cada item da lista */
+    box-sizing: border-box; /* Garantir que o padding e a borda sejam incluídos na largura */
+    font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+}
+footer main{
+    margin-right: 2px;
+    padding:5px;
+    margin: 5px;
+}
