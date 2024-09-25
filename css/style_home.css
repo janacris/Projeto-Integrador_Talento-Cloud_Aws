@@ -1,3 +1,7 @@
+body{
+    background-color: #E9EDEF;
+}
+
 header {
     background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
     padding: 5px; /* Espaçamento interno do cabeçalho */
@@ -24,7 +28,7 @@ div nav a {
     position: relative;
     width: 100%;
     height: 200px; /* Altura do banner */
-    background-image: url('./banner_home.png');/* Imagem de fundo do banner */
+    background-image: url('../imagens/banner_home.png');/* Imagem de fundo do banner */
     background-position: center; /* Centraliza a imagem de fundo */
     background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
     color: #fff; /* Cor do texto sobreposto */
@@ -47,6 +51,49 @@ h4{
     padding: 1px 70px;
 }
 
+.botao {
+    display: flex;
+    align-items: baseline; /* Alinha verticalmente a imagem e texto */
+    border: none;
+    padding: 0px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    position: absolute;
+/*    top: 515px; /* Distância do topo */
+ /*   left: 220px; /* Distância da esquerda */
+}
+
+.botao1 {
+    top: 515px;/* Distância do topo */
+    left: 220px; /* Distância da esquerda */
+}
+.botao2 {
+    top: 515px;
+    left: 390px;
+}
+.botao3 {
+    top: 515px;
+    left: 560px;
+}
+
+.botao4 {
+    top: 515px;
+    left: 730px;
+}
+.botao5 {
+    top: 515px;
+    left: 900px;
+}
+
+
+.cerebro{
+    height: 900px; /* Altura do banner */
+    background-image: url('../imagens/cerebro_bub.png');/* Imagem de fundo do banner */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    justify-content: baseline;
+}
+
+
 footer{
     background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
     padding: 5px; /* Espaçamento interno do cabeçalho */
@@ -67,9 +114,15 @@ footer h6{
 .menu{
     align-items: center;
     text-align: left;
+    text-decoration: none;
     color: #000000;
     margin-left: 20px;
     font-size: 22px;
+}
+
+div ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .lista-duas-colunas {
