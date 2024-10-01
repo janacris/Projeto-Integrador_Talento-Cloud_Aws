@@ -54,93 +54,44 @@ header {
     display: block; /* Mostra o submenu ao passar o mouse */
 }
 
-/* configurações do nosso banner*/
-.banner {
-    position: relative;
-    height: 200px; /* Altura do banner */
-    width: 100%;
-    background-image: url('../imagens/banner_home.png');/* Imagem de fundo do banner */
+
+
+.imagem{
+    display:flex;
+    height: 326px;
+    width: 532px;
+    padding: 0; /* Espaçamento interno */
+    margin-top: 30px; /* Espaçamento acima da nav */
+    margin-left:250PX;
     background-position: center; /* Centraliza a imagem de fundo */
     background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
-    color: #fff; /* Cor do texto sobreposto */
+}
+
+.container {
+    display: flex; /* Usar flexbox para alinhar */
+    align-items: center;
+    line-height: center;
+    background-color:aqua ;
+    justify-content: center; 
+}
+
+h1{
+    display: inline-block;
+    color: black;
+    margin-left: 250px ;/* Remove a margem padrão do título */
+    font-size: 38px;
+    padding: 8px;
+    background-color:#DFB438;
 }
 
 h2 {
+    display: flex; /* Usar Flexbox */
+    align-items: flex-end; /* Alinha os itens na base do contêiner */
+    color:black; /* Cor do subtítulo */
+    font-size: 28px; /* Tamanho da fonte do subtítulo */
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center; /* Centraliza o texto horizontalmente */
-    font-weight: 900; /* Define a fonte como "black" */
-    margin-top: -10px; /* Ajusta a posição vertical do título */
+    font-weight: 900;
 }
-/*configurações da section*/
-section {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#d9d9d9;
-    background-position: center;
-    height: 180px;
-    width: 70%;
-    text-align:left; 
-    margin-left: 200px;
-}
-
-h4{
-    padding: 1px 70px;
-    margin-top: -10px;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-}
-
-/***********************AQUI COMEÇA A CONFIGURAÇÃO DO NOSSO HUB-CEREBRO********************/
-
-/*configuração e alinhamento dos botoes*/
-.botao {
-    display: flex;
-    align-items: baseline; /* Alinha verticalmente a imagem e texto */
-    border: none;
-    border-radius: 50%;
-    padding: 0px; /* Espaçamento interno */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    position: absolute;
-}
-
-.botao1 {
-    top: 505px;/* Distância do topo */
-    left: 300px; /* Distância da esquerda */
-}
-
-.botao2 {
-    top: 505px;
-    left: 450px;
-}
-
-.botao3 {
-    top: 505px;
-    left: 600px;
-}
-
-.botao4 {
-    top: 505px;
-    left: 750px;
-}
-
-.botao5 {
-    top: 505px;
-    left: 900px;
-}
-
-/* alinhamento da nossa imagem hub-cerebro*/
-.cerebro{
-    height: 660px; /* Altura do banner */
-    width: auto;
-    background-image: url('../imagens/cerebro_hub.png');/* Imagem de fundo do banner */
-    background-position: center; /* Centraliza a imagem de fundo */
-    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
-    margin-left: 40px;
-    padding: 0;
-}
-
-
-/******************AQUI COMEÇA O CSS DO FOOTER**********************/
 
 
 /* CONFIGURAÇÕES DO FOOTER*/
