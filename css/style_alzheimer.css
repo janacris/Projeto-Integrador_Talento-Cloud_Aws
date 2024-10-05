@@ -62,35 +62,42 @@ header {
     width: 532px;
     padding: 0; /* Espaçamento interno */
     margin-top: 30px; /* Espaçamento acima da nav */
-    margin-left:250PX;
     background-position: center; /* Centraliza a imagem de fundo */
     background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
 }
 
 .container {
     display: flex; /* Usar flexbox para alinhar */
-    align-items: center;
-    line-height: center;
-    background-color:aqua ;
-    justify-content: center; 
+    align-items:center; /* Alinha verticalmente no centro */
+    justify-content: space-between; /* Espaça os elementos */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
 }
 
-h1{
+.h1{
     display: inline-block;
+    margin: 0;
     color: black;
-    margin-left: 250px ;/* Remove a margem padrão do título */
     font-size: 38px;
     padding: 8px;
     background-color:#DFB438;
-}
-
-h2 {
+    margin-left:200px;
+}    
+.h2 {
     display: flex; /* Usar Flexbox */
-    align-items: flex-end; /* Alinha os itens na base do contêiner */
+    margin: 0;
     color:black; /* Cor do subtítulo */
     font-size: 28px; /* Tamanho da fonte do subtítulo */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
+    margin-left: 140px;
+}
+.h4{
+    display: flex;
+    font-size: 22px;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10px;
 }
 
 
