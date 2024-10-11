@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  Padding: 0;
+  }
+body{
+  background-color: #FFFCFC;
+}
+
+header {
+  background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+  padding: 5px; /* Espaçamento interno do cabeçalho */
+  display: flex; /* */
+  align-items: center;
+}
+
+/* para centralizar o menu do header*/
+.menu{
+  display: flex;
+  background-color: #C1D7E5;
+  list-style-type: none;
+  padding: 10px;
+  margin:5;
+  margin-left:80px;
+}
+
+
+.menu li a  {
+  margin: 0 30px;
+  font-size: 22px;
+  font-weight: 900;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 30px; /* Espaçamento entre os itens */
+  position: relative; /* Necessário para o sub-menu */
+}
+
+.submenu {
+  display: none;  /*Esconde o submenu inicialmente*/ 
+  position: absolute; /* Coloca o submenu em relação ao item pai */
+  background-color:#C1D7E5;
+  font-size: 20px;
+  font-weight: 900;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1; /* Para garantir que o submenu fique acima de outros elementos */
+}
+
+.submenu li a{
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  padding: 4px 6px;
+
+}
+
+.menu > li:hover .submenu{
+  display: block; /* Mostra o submenu ao passar o mouse */
+}
+
+/* body da página*/
+#imagem
+{
+    width: 1900px; /* Largura de 300 pixels */
+    height: 10%; /* Altura de 200 pixels */
+    margin-top: 80px; /* margem no topo */
+    margin-right: center;  /*  margem à direita */
+    margin-left: center;
+    margin-bottom: none; /* margem na parte inferior */
+}
+
+#titulo {
+  color: #0A2EA1; /* Cor do texto */
+  font-size: 36px; /* Tamanho da fonte */
+  font-weight:800; /* Define o texto como extra bold */
+}
+
+.campo {
+  color: #0A2EA1; /* Cor do texto */
+  font-size: 24px; /* Tamanho da fonte */
+  font-weight:800; /* Define o texto como extra bold */
+  margin: center;
+  Padding: center;
+  position: center; /*Posição */
+}
+
+.button {
+  color: #D9D9D9; /* Cor do texto */
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight:800; /* Define o texto como extra bold */
+  background-color: #0A2EA1; /* Cor de fundo do botão */
+  padding: 5px 1%; /* Espaçamento interno */
+  position: 647px 1413px; /*Posição */
+  border: none; /* Remover a borda padrão */
+  cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+  width: 110px; /* Largura do botão */
+  height: 46px; /* Altura do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  border-radius: 5; /* Arredondamento das bordas */
+}
+
+input {
+  background-color: D9D9D9; /* Cor do texto */
+  border-radius: 5; /* Arredondamento das bordas */
+  color: #000000; /* Cor do texto dentro do input */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho da fonte */
+}
