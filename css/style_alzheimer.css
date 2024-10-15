@@ -66,6 +66,13 @@ header {
     background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
 }
 
+.imagem2{
+    display:flex;
+    height: 326px;
+    width: 532px;
+    margin-left: 400px;
+}
+
 .container {
     display: flex; /* Usar flexbox para alinhar */
     align-items:center; /* Alinha verticalmente no centro */
@@ -127,7 +134,7 @@ footer h6{
     font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
     font-weight: 800;
     font-size: 18px;
-    color:black;
+    color:#0A2EA1;
 }
 
 /*alinhar menu do footer ao centro*/
