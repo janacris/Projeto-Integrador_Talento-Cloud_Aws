@@ -57,7 +57,7 @@ header {
 /* configurações do nosso banner*/
 .banner {
     position: relative;
-    height: 200px; /* Altura do banner */
+    height: 150px; /* Altura do banner */
     width: 100%;
     background-image: url('../imagens/banner_home.png');/* Imagem de fundo do banner */
     background-position: center; /* Centraliza a imagem de fundo */

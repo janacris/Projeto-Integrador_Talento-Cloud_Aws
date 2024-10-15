@@ -148,6 +148,7 @@ button:hover {
   opacity: 0.7;
 }
 
+/* CONFIGURAÇÕES DO FOOTER*/
 footer{
   background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
   padding: 5px; /* Espaçamento interno do cabeçalho */
@@ -155,24 +156,33 @@ footer{
   align-items: center;
 
 }
+
 footer h6{
-  /*background-color: aqua;*/
   padding: 10px;
   margin-left: 5px;
   font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
   font-weight: 800;
   font-size: 18px;
-  color:#0A2EA1;
+  color:black;
 }
 
-.menu{
+/*alinhar menu do footer ao centro*/
+.menu_footer {
   align-items: center;
   text-align: left;
+  text-decoration: none;
   color: #000000;
   margin-left: 20px;
   font-size: 22px;
 }
 
+/* cor do menu footer*/
+footer div ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+/*fazer duas colunas no menu do footer*/
 .lista-duas-colunas {
   display: flex; /* Usar flexbox */
   flex-wrap: wrap; /* Permitir quebra de linha */
@@ -183,6 +193,8 @@ footer h6{
   box-sizing: border-box; /* Garantir que o padding e a borda sejam incluídos na largura */
   font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
 }
+
+/*para alinhar as redes sociais a direita*/
 footer main{
   margin-right: 2px;
   padding:5px;
