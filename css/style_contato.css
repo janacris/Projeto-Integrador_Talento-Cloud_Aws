@@ -84,8 +84,7 @@ h2 {
 
 form {
   display: flex;
-  flex-direction: column; /* Alinhar os elementos verticalmente */
-  align-items: center;    /* Centralizar horizontalmente */
+  align-items: center;/* Centralizar horizontalmente */
   justify-content: center; /* Centralizar verticalmente */
   height: 95vh;  /* Ocupa toda a altura da viewport */
   font-family: 'Inter', sans-serif;
@@ -176,12 +175,14 @@ footer h6{
 .lista-duas-colunas {
   display: flex; /* Usar flexbox */
   flex-wrap: wrap; /* Permitir quebra de linha */
+  justify-content: center;
 }
 
 .lista-duas-colunas li {
   width: 40%; /* Definir a largura de cada item da lista */
   box-sizing: border-box; /* Garantir que o padding e a borda sejam incluídos na largura */
   font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+
 }
 footer main{
   margin-right: 2px;
