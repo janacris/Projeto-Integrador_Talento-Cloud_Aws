@@ -66,6 +66,13 @@ header {
     background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
 }
 
+.imagem2{
+    display:flex;
+    height: 326px;
+    width: 532px;
+    margin-left: 400px;
+}
+
 .container {
     display: flex; /* Usar flexbox para alinhar */
     align-items:center; /* Alinha verticalmente no centro */
