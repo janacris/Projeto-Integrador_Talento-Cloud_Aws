@@ -1,0 +1,181 @@
+
+body{
+    background-color: #E9EDEF;
+
+}
+
+header {
+    background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    display: flex; /* */
+    align-items: center;
+    margin: 0;Padding: 0;
+}
+
+/* para centralizar o menu do header*/
+.menu{
+    display: flex;
+    background-color: #C1D7E5;
+    list-style-type: none;
+    padding: 10px;
+    margin:5;
+    margin-left:200px;
+}
+
+
+.menu li a  {
+    margin: 0 30px;
+    font-size: 22px;
+    font-weight: 900;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 30px; /* Espaçamento entre os itens */
+    position: relative; /* Necessário para o sub-menu */
+}
+
+.submenu {
+    display: none;  /*Esconde o submenu inicialmente*/ 
+    position: absolute; /* Coloca o submenu em relação ao item pai */
+    background-color:#C1D7E5;
+    font-size: 20px;
+    font-weight: 900;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1; /* Para garantir que o submenu fique acima de outros elementos */
+
+}
+
+.submenu li a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    padding: 4px 6px;
+ 
+}
+
+.menu > li:hover .submenu{
+    display: block; /* Mostra o submenu ao passar o mouse */
+}
+
+h1{
+    margin-left:300px;
+    margin-top:80px; 
+    font-weight: 800px;
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+}
+.retangulo {
+    background-color:#06C8EC;  /* Cor de fundo */
+    padding: 6px 50px; /* Espaçamento interno para dar mais "espaço" ao fundo */
+  }
+  
+
+#autismo {
+    width: 800px;         /* Largura da imagem */
+    height: auto;         /* Altura automática para manter a proporção */
+    position:relative;
+    left: 420px;
+}
+
+#negrito{
+    font-weight:bold;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+}
+#paragrafo {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+#autismo2 {
+    width: 600px;         /* Largura da imagem */
+    height: auto;         /* Altura automática para manter a proporção */
+    margin-left: 500px;
+    margin-top: 40px;
+    
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+}
+
+#ajuda{
+    margin-bottom: 120px;
+}
+
+li{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+#paragrafo1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+#informação {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight:normal;
+}
+
+
+/* CONFIGURAÇÕES DO FOOTER*/
+footer{
+    background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    display: flex; 
+    align-items: center;
+  
+}
+
+footer h6{
+    padding: 10px;
+    margin-left: 5px;
+    font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+    font-weight: 800;
+    font-size: 18px;
+    color:#0A2EA1;
+}
+
+/*alinhar menu do footer ao centro*/
+.menu_footer {
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+/* cor do menu footer*/
+footer div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*fazer duas colunas no menu do footer*/
+.lista-duas-colunas {
+    display: flex; /* Usar flexbox */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+}
+
+.lista-duas-colunas li {
+    width: 40%; /* Definir a largura de cada item da lista */
+    box-sizing: border-box; /* Garantir que o padding e a borda sejam incluídos na largura */
+    font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+}
+
+/*para alinhar as redes sociais a direita*/
+footer main{
+    margin-right: 2px;
+    padding:5px;
+    margin: 5px;
+}
+
+
