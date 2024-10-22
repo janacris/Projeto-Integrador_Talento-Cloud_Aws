@@ -53,6 +53,8 @@ header {
 .menu > li:hover .submenu{
     display: block; /* Mostra o submenu ao passar o mouse */
 }
+
+
 /******************AQUI COMEÇA O CSS DO FOOTER**********************/
 
 
@@ -71,7 +73,7 @@ footer h6{
     font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
     font-weight: 800;
     font-size: 18px;
-    color:black;
+    color:#0A2EA1;
 }
 
 /*alinhar menu do footer ao centro*/
