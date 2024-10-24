@@ -1,0 +1,199 @@
+body{
+    background-color: #E9EDEF;
+}
+
+header {
+    background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    display: flex; /* */
+    align-items: center;
+}
+
+/* para centralizar o menu do header*/
+.menu{
+    display: flex;
+    background-color: #C1D7E5;
+    list-style-type: none;
+    padding: 10px;
+    margin:5;
+    margin-left:80px;
+}
+
+
+.menu li a  {
+    margin: 0 30px;
+    font-size: 22px;
+    font-weight: 900;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 30px; /* Espaçamento entre os itens */
+    position: relative; /* Necessário para o sub-menu */
+}
+
+.submenu {
+    display: none;  /*Esconde o submenu inicialmente*/ 
+    position: absolute; /* Coloca o submenu em relação ao item pai */
+    background-color:#C1D7E5;
+    font-size: 20px;
+    font-weight: 900;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1; /* Para garantir que o submenu fique acima de outros elementos */
+}
+
+.submenu li a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    padding: 4px 6px;
+ 
+}
+
+.menu > li:hover .submenu{
+    display: block; /* Mostra o submenu ao passar o mouse */
+}
+
+/* configurações do nosso banner*/
+.banner {
+    position: relative;
+    height: 200px; /* Altura do banner */
+    width: 100%;
+    background-image: url('../imagens/banner_home.png');/* Imagem de fundo do banner */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    color: #fff; /* Cor do texto sobreposto */
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-weight: 900; /* Define a fonte como "black" */
+    margin-top: -10px; /* Ajusta a posição vertical do título */
+}
+/*configurações da section*/
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#d9d9d9;
+    background-position: center;
+    height: 180px;
+    width: 70%;
+    text-align:left; 
+    margin-left: 200px;
+}
+
+h4{
+    padding: 1px 70px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+/***********************AQUI COMEÇA A CONFIGURAÇÃO DO NOSSO HUB-CEREBRO********************/
+
+/*configuração e alinhamento dos botoes*/
+.botao {
+    display: flex;
+    align-items: baseline; /* Alinha verticalmente a imagem e texto */
+    border: none;
+    border-radius: 50%;
+    padding: 0px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    position: absolute;
+}
+
+.botao1 {
+    top: 505px;/* Distância do topo */
+    left: 300px; /* Distância da esquerda */
+}
+
+.botao2 {
+    top: 505px;
+    left: 450px;
+}
+
+.botao3 {
+    top: 505px;
+    left: 600px;
+}
+
+.botao4 {
+    top: 505px;
+    left: 750px;
+}
+
+.botao5 {
+    top: 505px;
+    left: 900px;
+}
+
+/* alinhamento da nossa imagem hub-cerebro*/
+.cerebro{
+    height: 660px; /* Altura do banner */
+    width: auto;
+    background-image: url('../imagens/cerebro_hub.png');/* Imagem de fundo do banner */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    margin-left: 40px;
+    padding: 0;
+}
+
+
+/******************AQUI COMEÇA O CSS DO FOOTER**********************/
+
+
+/* CONFIGURAÇÕES DO FOOTER*/
+footer{
+    background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    display: flex; 
+    align-items: center;
+  
+}
+
+footer h6{
+    padding: 10px;
+    margin-left: 5px;
+    font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+    font-weight: 800;
+    font-size: 18px;
+    color:#0A2EA1;
+}
+
+/*alinhar menu do footer ao centro*/
+.menu_footer {
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+/* cor do menu footer*/
+footer div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*fazer duas colunas no menu do footer*/
+.lista-duas-colunas {
+    display: flex; /* Usar flexbox */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+}
+
+.lista-duas-colunas li {
+    width: 40%; /* Definir a largura de cada item da lista */
+    box-sizing: border-box; /* Garantir que o padding e a borda sejam incluídos na largura */
+    font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+}
+
+/*para alinhar as redes sociais a direita*/
+footer main{
+    margin-right: 2px;
+    padding:5px;
+    margin: 5px;
+}
+
+

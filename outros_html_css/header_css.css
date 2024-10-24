@@ -1,0 +1,20 @@
+header {
+    background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    display: flex; /* */
+    align-items: center;
+}
+
+.menu-wrapper {
+    align-items: center;
+    text-align: center;
+    background-color: #C1D7E5;
+    padding: 10px 20px;
+    margin-left: 130px;
+}
+
+div nav a {
+    margin: 0 30px;
+    color: #000000; /* Cor dos links no menu */
+    font-size: 22px; /* Tamanho da fonte dos links */
+}

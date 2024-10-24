@@ -1,0 +1,175 @@
+body{
+    background-color: #E9EDEF;
+}
+
+header {
+    background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    display: flex; /* */
+    align-items: center;
+}
+
+/* para centralizar o menu do header*/
+.menu{
+    display: flex;
+    background-color: #C1D7E5;
+    list-style-type: none;
+    padding: 10px;
+    margin:5;
+    margin-left:80px;
+}
+
+
+.menu li a  {
+    margin: 0 30px;
+    font-size: 22px;
+    font-weight: 900;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 30px; /* Espaçamento entre os itens */
+    position: relative; /* Necessário para o sub-menu */
+}
+
+.submenu {
+    display: none;  /*Esconde o submenu inicialmente*/ 
+    position: absolute; /* Coloca o submenu em relação ao item pai */
+    background-color:#C1D7E5;
+    font-size: 20px;
+    font-weight: 900;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1; /* Para garantir que o submenu fique acima de outros elementos */
+}
+
+.submenu li a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    padding: 4px 6px;
+ 
+}
+
+.menu > li:hover .submenu{
+    display: block; /* Mostra o submenu ao passar o mouse */
+}
+
+
+
+.imagem{
+    display:flex;
+    height: 326px;
+    width: 532px;
+    padding: 0; /* Espaçamento interno */
+    margin-top: 30px; /* Espaçamento acima da nav */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+}
+
+.imagem2{
+    display:flex;
+    height: 326px;
+    width: 532px;
+    margin-left: 400px;
+}
+
+.container {
+    display: flex; /* Usar flexbox para alinhar */
+    align-items:center; /* Alinha verticalmente no centro */
+    justify-content: space-between; /* Espaça os elementos */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+}
+
+.h1{
+    display: inline-block;
+    margin: 0;
+    color: black;
+    font-size: 38px;
+    padding: 8px;
+    background-color:#DFB438;
+    margin-left:200px;
+}    
+.h2 {
+    display: flex; /* Usar Flexbox */
+    margin: 0;
+    color:black; /* Cor do subtítulo */
+    font-size: 28px; /* Tamanho da fonte do subtítulo */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+}
+
+h3{
+    font-size: 24px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.h4{
+    display: flex;
+    font-size: 22px;
+    color:#000000;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.nav li{
+    font-size: 22px;
+    color:#000000;
+    margin-left: 10px;
+}
+
+
+/* CONFIGURAÇÕES DO FOOTER*/
+footer{
+    background-color: #A9CCE3; /* Cor de fundo do cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+    display: flex; 
+    align-items: center;
+  
+}
+
+footer h6{
+    padding: 10px;
+    margin-left: 5px;
+    font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+    font-weight: 800;
+    font-size: 18px;
+    color:#0A2EA1;
+}
+
+/*alinhar menu do footer ao centro*/
+.menu_footer {
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+/* cor do menu footer*/
+footer div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*fazer duas colunas no menu do footer*/
+.lista-duas-colunas {
+    display: flex; /* Usar flexbox */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+}
+
+.lista-duas-colunas li {
+    width: 40%; /* Definir a largura de cada item da lista */
+    box-sizing: border-box; /* Garantir que o padding e a borda sejam incluídos na largura */
+    font-family: 'Extra bold', sans-serif; /* Substitua pelo nome da sua fonte */
+}
+
+/*para alinhar as redes sociais a direita*/
+footer main{
+    margin-right: 2px;
+    padding:5px;
+    margin: 5px;
+}
+
+
