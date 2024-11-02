@@ -63,7 +63,7 @@
             setTimeout(() => {
                 button.classList.remove('hidden');
                 button.classList.add('show');
-            }, index * 200); // Atraso de 300ms entre cada botão
+            }, index * 300); // Atraso de 300ms entre cada botão
         });
     };
     

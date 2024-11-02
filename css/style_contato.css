@@ -50,11 +50,15 @@ header {
 }
 
 .submenu li a{
-  display: flex;
+  /*display: block;*/
   text-decoration: none;
   color: #000000;
   padding: 4px 6px;
 
+}
+
+.submenu li:hover {
+  background-color: #E9EDEF; /* Cor do item do sub-menu ao passar o mouse */
 }
 
 .menu > li:hover .submenu{
