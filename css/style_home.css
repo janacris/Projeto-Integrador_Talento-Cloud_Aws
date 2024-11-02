@@ -21,6 +21,7 @@ header {
 
 
 .menu li a  {
+    display: inline-block;
     margin: 0 30px;
     font-size: 22px;
     font-weight: 900;
@@ -29,6 +30,7 @@ header {
     margin-right: 30px; /* Espaçamento entre os itens */
     position: relative; /* Necessário para o sub-menu */
 }
+
 
 .submenu {
     display: none;  /*Esconde o submenu inicialmente*/ 
@@ -43,26 +45,49 @@ header {
 }
 
 .submenu li a{
-    display: flex;
+    /*display: block;*/
     text-decoration: none;
     color: #000000;
     padding: 4px 6px;
  
 }
 
+.submenu li:hover {
+    background-color: #E9EDEF; /* Cor do item do sub-menu ao passar o mouse */
+}
+
 .menu > li:hover .submenu{
     display: block; /* Mostra o submenu ao passar o mouse */
 }
+
 
 /* configurações do nosso banner*/
 .banner {
     position: relative;
     height: 200px; /* Altura do banner */
     width: 100%;
-    background-image: url('../imagens/banner_home.png');/* Imagem de fundo do banner */
+   /* background-image: url('../imagens/banner_home.png');/* Imagem de fundo do banner */
     background-position: center; /* Centraliza a imagem de fundo */
     background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
     color: #fff; /* Cor do texto sobreposto */
+    transition: background-image 0.5s ease; /* Transição suave para a imagem */
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
 }
 
 h2 {
