@@ -35,3 +35,36 @@
          updateBanner();
      });
 
+     // interação com os botões do cerebro
+
+     document.querySelectorAll('.botao').forEach(button => {
+        button.addEventListener('mouseenter', () => {
+            button.style.transform = 'scale(1.1)';
+            button.style.transition = 'transform 0.3s';
+        });
+    
+        button.addEventListener('mouseleave', () => {
+            button.style.transform = 'scale(1)';
+        });
+    
+        button.addEventListener('click', () => {
+            button.style.transform = 'scale(0.9)';
+            setTimeout(() => {
+                button.style.transform = 'scale(1)';
+            }, 100);
+        });
+    });
+
+    // animação de entrada dos botoes do cerebro
+
+    window.onload = () => {
+        const buttons = document.querySelectorAll('.botao');
+        buttons.forEach((button, index) => {
+            setTimeout(() => {
+                button.classList.remove('hidden');
+                button.classList.add('show');
+            }, index * 200); // Atraso de 300ms entre cada botão
+        });
+    };
+    
+

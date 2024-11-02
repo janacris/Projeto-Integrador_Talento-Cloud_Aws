@@ -126,7 +126,21 @@ h4{
     padding: 0px; /* Espaçamento interno */
     cursor: pointer; /* Muda o cursor ao passar o mouse */
     position: absolute;
+   /* transition: transform 0.3s; /*  efeitos de transição do botão*/
+   transition: transform 0.3s, background-color 0.3s; /* Adiciona transição de cor */
 }
+
+.hidden {
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(800px); /* Move para baixo */
+    transition: opacity 0.9s ease, transform 0.9s ease; /* Transições suaves */
+}
+
+.show {
+    opacity: 1; /* Torna visível */
+    transform: translateY(0); /* Retorna à posição original */
+}
+
 
 .botao1 {
     top: 505px;/* Distância do topo */
