@@ -21,7 +21,6 @@ header {
 
 
 .menu li a  {
-    display: inline-block;
     margin: 0 30px;
     font-size: 22px;
     font-weight: 900;
@@ -44,15 +43,11 @@ header {
 }
 
 .submenu li a{
-   /* display: block;*/
+    display: flex;
     text-decoration: none;
     color: #000000;
     padding: 4px 6px;
  
-}
-
-.submenu li:hover {
-    background-color: #E9EDEF; /* Cor do item do sub-menu ao passar o mouse */
 }
 
 .menu > li:hover .submenu{
@@ -60,68 +55,7 @@ header {
 }
 
 
-
-.imagem{
-    display:flex;
-    height: 326px;
-    width: 532px;
-    padding: 0; /* Espaçamento interno */
-    margin-top: 30px; /* Espaçamento acima da nav */
-    background-position: center; /* Centraliza a imagem de fundo */
-    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
-}
-
-.imagem2{
-    display:flex;
-    height: 326px;
-    width: 532px;
-    margin-left: 400px;
-}
-
-.container {
-    display: flex; /* Usar flexbox para alinhar */
-    align-items:center; /* Alinha verticalmente no centro */
-    justify-content: space-between; /* Espaça os elementos */
-    padding: 10px 20px; /* Adiciona espaçamento interno */
-}
-
-.h1{
-    display: inline-block;
-    margin: 0;
-    color: black;
-    font-size: 38px;
-    padding: 8px;
-    background-color:#DFB438;
-    margin-left:200px;
-}    
-.h2 {
-    display: flex; /* Usar Flexbox */
-    margin: 0;
-    color:black; /* Cor do subtítulo */
-    font-size: 28px; /* Tamanho da fonte do subtítulo */
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 160px;
-}
-
-h3{
-    font-size: 24px;
-    color: #000000;
-    margin-left: 10px;
-}
-
-.h4{
-    display: flex;
-    font-size: 22px;
-    color:#000000;
-    text-align: justify;
-    margin-left: 10px;
-}
-
-.nav li{
-    font-size: 22px;
-    color:#000000;
-    margin-left: 10px;
-}
+/******************AQUI COMEÇA O CSS DO FOOTER**********************/
 
 
 /* CONFIGURAÇÕES DO FOOTER*/
@@ -176,5 +110,3 @@ footer main{
     padding:5px;
     margin: 5px;
 }
-
-

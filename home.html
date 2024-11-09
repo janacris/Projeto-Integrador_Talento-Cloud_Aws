@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/Style_home.css">
+    <script src="/js/script.js" defer></script> 
     <title>home</title>
 </head>
 <body>
@@ -20,8 +21,8 @@
                            <li><a href="autismo.html">Autismo</a></li>
                            <li><a href="depressao.html">Depressão</a></li>
                            <li><a href="alzheimer.html">Alzheimer</a></li>
-                           <li><a href="#">Parkinson</a></li>
-                           <li><a href="#">TDAH</a></li>
+                           <li><a href="parkinson.html">Parkinson</a></li>
+                           <li><a href="tdah.html">TDAH</a></li>
                          </ul>
                   </li>
                 <li><a href="#Sobre">Sobre</a></li>
@@ -31,9 +32,14 @@
         </nav>
     </header>
     
-    <main>
-         <!-- Banner -->
-         <div class="banner"> </div>
+    <nav>
+        <div class="banner" id="banner" style="background-image: url('./imagens/banner_home_1.png');">
+            <div class="controls">
+                <button class="button" id="prev">❮</button>
+                <button class="button" id="next">❯</button>
+            </div>
+        </div>
+
          <section>
             <h2>Juntos pela Saúde Mental: Um Espaço de Apoio e Informação </h2>  
             <h4>    Neste site, buscamos oferecer informações claras e confiáveis sobre
@@ -44,59 +50,61 @@
             </h4>
          </section>
 
-    </main>
+        </nav>
 
-       <main>
-            <button class="botao botao1">
+       <nav>
+
+            <button class="botao botao1 hidden">
                 <a href="autismo.html">
                     <img src="./imagens/circulo_altismo.png" alt="Alzheimer">
                 </a>
             </button>
+        
 
-            <button class="botao botao2">
+            <button class="botao botao2 hidden">
                 <a href="depressao.html">
                     <img src="./imagens/circulo_depressao.png" alt="Depressão">
                 </a>
             </button>
             
-            <button class="botao botao3">
+            <button class="botao botao3 hidden">
                 <a href="alzheimer.html">
                     <img src="./imagens/circulo_alzheimer.png" alt="Alzheimer">
                 </a>
             </button>
 
-            <button class="botao botao4">
+            <button class="botao botao4 hidden">
                     <img src="./imagens/circulo_Parkinson.png" alt="Parkinson">
             </button>
 
-            <button class="botao botao5">
+            <button class="botao botao5 hidden">
                 <img src="./imagens/circulo_tdah.png" alt="Tdah">
             </button>
 
             <div class= "cerebro"></div>
-        </main>
-
-     
-    <footer>
-        <img src="./imagens/logomarca.png" alt="descrição da logo"/> 
+        </nav>  
+   
+        <footer>
+            <img src="./imagens/logomarca.png" alt="descrição da logo"/> 
+            
+            <h6>Somos um Hub de  <br> informações sobre</h6>
         
-        <h6>Somos um Hub de  <br> informações sobre</h6>
+            <div class="menu_footer">       
+                <ul class="lista-duas-colunas">
+                    <li><a href="#Institucional">Institucional</a></li>
+                    <li><a href="#Parceiros">Parceiros</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Perguntas frenquentes">Perguntas frerquentes</a></li>
+                    <li><a href="contato.html">Contato</a></li>     
+                    <li><a href="#Blog">Blog</a></li>                 
+                </ul>      
+            </div>
+               <nav>
+                    <h5>quer ver mais ?<br> SIGA NOSSAS<br> REDES SOCIAIS</H5>
+                    <img src="./imagens/redes_sociais.png" alt="redes sociais">
+               </nav>
+            
+        </footer>
 
-        <div class="menu_footer">       
-            <ul class="lista-duas-colunas">
-                <li><a href="#Institucional">Institucional</a></li>
-                <li><a href="#Parceiros">Parceiros</a></li>
-                <li><a href="#Sobre">Sobre</a></li>
-                <li><a href="#Perguntas frenquentes">Perguntas frerquentes</a></li>
-                <li><a href="contato.html">Contato</a></li>     
-                <li><a href="#Blog">Blog</a></li>                 
-            </ul>      
-        </div>
-           <main>
-                <h5>quer ver mais ?<br> SIGA NOSSAS<br> REDES SOCIAIS</H5>
-                <img src="./imagens/redes_sociais.png" alt="redes sociais">
-           </main>
-        
-    </footer>
 </body> 
 </html>
