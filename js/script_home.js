@@ -47,8 +47,8 @@
      // interação com os botões do cerebro
      document.querySelectorAll('.botao').forEach(button => {  // Para cada botão com a classe 'botao'
         button.addEventListener('mouseenter', () => { // Quando o mouse entra no botão
-            button.style.transform = 'scale(1.1)';  // Quando o mouse entra no botão
-            button.style.transition = 'transform 0.3s'; // Quando o mouse entra no botão
+            button.style.transform = 'scale(1.1)';  // Aumenta o tamanho do botão
+            button.style.transition = 'transform 0.3s'; // Adiciona uma transição suave
         });
     
         button.addEventListener('mouseleave', () => {  // Quando o mouse sai do botão
