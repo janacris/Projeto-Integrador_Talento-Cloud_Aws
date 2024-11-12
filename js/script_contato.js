@@ -1,7 +1,7 @@
 document.getElementById('button').addEventListener('click', function(event) {
     event.preventDefault(); // Impede o envio padrão do formulário
 
-    // Obtém os valores dos campos
+    // captura e guarda o ID em variaveis
     const nome = document.getElementById('nome').value.trim();
     const email = document.getElementById('email').value.trim();
     const assunto = document.getElementById('assunto').value.trim();
@@ -37,10 +37,10 @@ document.getElementById('button').addEventListener('click', function(event) {
         return;
       }
 
-    // Se tudo estiver correto, você pode enviar o formulário
+    // mensagem de formulário enviado
     alert('Formulário enviado com sucesso!');
 
-        // Limpa o formulário
-        document.getElementById('formulario').reset();
+    // para limpar o formulario após o envio
+    document.getElementById('formulario').reset();
 
   });
