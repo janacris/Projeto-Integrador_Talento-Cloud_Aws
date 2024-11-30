@@ -390,9 +390,14 @@ FodyWeavers.xsd
 # Windows Installer files from build outputs
 *.cab
 *.msi
-*.msix
 *.msm
 *.msp
 
-# JetBrains Rider
-*.sln.iml
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore Acer directory and all .dll files
+Acer/
+*.dll

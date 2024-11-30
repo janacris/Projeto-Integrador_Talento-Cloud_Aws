@@ -71,7 +71,7 @@ div nav a {
     position: relative;
     margin-top: 50px;
     left: -0%; /* Ajuste para alinhar mais à esquerda */
-    background-image: url('img_parkinson/retangulo_azul.png'); 
+    background-image: url('../Imagens/img_parkinson/retangulo_azul.png'); 
     background-size: 100% 100%; /* Ajusta a imagem de fundo para ocupar toda a altura */
     padding: 10px 20px;
     color: black;
@@ -95,7 +95,7 @@ h1{
     position: absolute;
     margin-top: 5px;
     right: -0%; /* Ajuste para alinhar à direita */
-    background-image: url('img_parkinson/retangulo_amarelo.png');
+    background-image: url('../Imagens/img_parkinson/retangulo_amarelo.png');
     background-size: 100% 50%; /* Ajusta a largura para 100% e altura para 50% do elemento */
     padding: 10px 20px;
     padding-left: 0;
