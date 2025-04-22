@@ -58,35 +58,14 @@ header {
     display: block; /* Mostra o submenu ao passar o mouse */
 }
 
-h1{
-    margin-left:300px;
-    margin-top:80px; 
-    font-weight: 800px;
-    font-size: 48px;
-    font-family: 'Inter', sans-serif;
-}
-.retangulo {
-    background-color:#06C8EC;  /* Cor de fundo */
-    padding: 6px 50px; /* Espaçamento interno para dar mais "espaço" ao fundo */
-  }
-  
-
-#autismo {
-    width: 800px;         /* Largura da imagem */
-    height: auto;         /* Altura automática para manter a proporção */
-    position:relative;
-    left: 420px;
-}
-
-#negrito{
-    font-weight:bold;
-    font-size: 36px;
-    font-family: 'Inter', sans-serif;
-}
-#paragrafo {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
-    font-weight: normal;
+#autismo1 {
+    position: relative;
+    height: 200px; /* Altura do banner */
+    width: 100%;
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    color: #fff; /* Cor do texto sobreposto */
+    transition: background-image 0.5s ease; /* Transição suave para a imagem */
 }
 
 #autismo2 {
@@ -97,24 +76,14 @@ h1{
     
 }
 
-iframe{
-    display: flex;
-    justify-content: center;
-}
 
 #ajuda{
     margin-bottom: 120px;
 }
 
-li{
+#paragrafo {
     font-family: 'Inter', sans-serif;
-    font-size: 36px;
-    font-weight: normal;
-}
-
-#paragrafo1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight:bold;
 }
 
